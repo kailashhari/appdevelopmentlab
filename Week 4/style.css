@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: darkcyan;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10rem;
+}
+
+body h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+body table {
+    background-color: aliceblue;
+    padding: 1rem;
+    margin: 1rem;
+    border: 4px solid black;
+    width: 50%;
+}
+
+button {
+    padding: 0.4rem;
+    border-radius: 8px;
+    font-size: large;
+    margin: 16px;
+}

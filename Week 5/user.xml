@@ -1,0 +1,73 @@
+<?xml version=”1.0”?>
+<userlist>
+<user>
+<userid>usr01</userid>
+<username>Person1</username>
+<address>T Nagar</address>
+<phone>1111111111</phone>
+<email>Person1@gmail.com</email>
+</user>
+<user>
+<userid>usr02</userid>
+<username>Person2</username>
+<address>Ashok Nagar</address>
+<phone>8888888888</phone>
+<email>Person2@gmail.com</email>
+</user>
+<user>
+<userid>usr03</userid>
+<username>Person3</username>
+<address>SR Nagar</address>
+<phone>6666666666</phone>
+<email>Person3@yahoo.com</email>
+</user>
+<user>
+<userid>usr04</userid>
+<username>Person4</username>
+<address>Besant Nagar</address>
+<phone>4444444444</phone>
+<email>Person4@yahoo.com</email>
+</user>
+<user>
+<userid>usr05</userid>
+<username>Person5</username>
+<address>Shenoi Nagar</address>
+<phone>5555555555</phone>
+<email>Person5@yahoo.com</email>
+</user>
+<user>
+<userid>usr06</userid>
+<username>Person6</username>
+<address>Ram Nagar</address>
+<phone>7777777777</phone>
+<email>Person6@yahoo.com</email>
+</user>
+ <user>
+<userid>usr07</userid>
+<username>Person7</username>
+<address>KK Nagar</address>
+<phone>6666666666</phone>
+<email>Person7@yahoo.com</email>
+</user>
+ <user>
+<userid>usr08</userid>
+<username>Person8</username>
+<address>Gandhi Nagar</address>
+<phone>3333333333</phone>
+<email>Person8@yahoo.com</email>
+</user>
+<user>
+<userid>usr09</userid>
+<username>Person9</username>
+<address>DS Nagar</address>
+<phone>4444444445</phone>
+<email>Person9@yahoo.com</email>
+</user>
+<user>
+<userid>usr10</userid>
+<username>Person10</username>
+<address>Anand Nagar</address>
+<phone>9090909090</phone>
+<email>Person10@yahoo.com</email>
+</user>
+</userlist>

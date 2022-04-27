@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="reg-card">
+        <div class="card-heading">
+            Register
+        </div>
+        <form class="reg-form" autocomplete="off">
+            <label for="fname">
+                First name
+            </label>
+            <input type="text" id="fname-ip" autocomplete="off"/>
+            <p class="error-msg" id="fname-error">First Name cannot be empty!</p>
+            <label for="lname">
+                Last name
+            </label>
+            <input type="text" id="lname-ip" autocomplete="off" />
+            <p class="error-msg" id="lname-error">Last Name cannot be empty!</p>
+            <label for="email">
+                Email Address
+            </label>
+            <input type="email" id="email-ip"/>
+            <p class="error-msg" id="email-error">Email cannot be empty!</p>
+            <label for="password">
+                Create password (min-length: 7)
+            </label>
+            <input type="password" id="password-ip" autocomplete="off" />
+            <p class="error-msg" id="pwd1-error">Password cannot be empty!</p>
+            <label for="confirm-password">
+                Confirm password
+            </label>
+            <input type="password" id="confirm-password-ip" autocomplete="off" />
+            <p class="error-msg" id="pwd2-error">Passwords do not match!</p>
+        </form>
+        <button class="reg-btn">Register</button>
+    </div>
+    <div class="notification" id="notification-panel">
+        Registration Successful!
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>

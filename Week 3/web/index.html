@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>exam portal</title>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <style>
+         * {
+             box-sizing: border-box;
+             margin: 0;
+             padding: 0;
+         }
+         body {
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             width: 100vw;
+             height: 100vh;
+             font-family: 'Roboto Mono';
+             background-color: #efeffe99;
+         }
+         .maindiv {
+             width: fit-content;
+             height: fit-content;
+             border-radius: 16px;
+             background-color: #efeffe;
+             padding: 3.2rem 2.4rem;
+             box-shadow: 0 0 32pt #000000;
+         }
+         form {
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+         }
+         .form-group {
+             margin: 0.8rem auto;
+         }
+     </style>
+ </head>
+ <body>
+     
+
+ <div class="maindiv">
+     <h3 style="text-align: center">ONLINE EXAM PORTAL</h3>
+     <hr>
+ 
+ <form method ="get" action="acceptuser.jsp">
+ <div class="form-group">Roll Number <input type="text" name="uname" value=""></div>
+ <div class="form-group">Password <input type="password" name="pass" value=""><br></div>
+
+ <button type="submit">LOGIN </button>
+ </form>
+ </div>
+ </body>
+</html>
